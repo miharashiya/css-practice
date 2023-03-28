@@ -1,3 +1,6 @@
+
+
+
 .header {
   display: flex;
 }
@@ -18,7 +21,6 @@
 }
 
 .nav-item {
-  
   color: blue;
   font-size: 20px;
   list-style: none;
@@ -41,20 +43,24 @@ li {
 
 
 .firstview-title {
+  font-size: 50px;
   text-align: left;
-  
+  position: absolute;
+  line-height: 700px;
 }
 
 .parent {
   background-color: blue;
   height: 100px;
-  width: 500px;
+  width: 700px;
+  margin-top: -130px;
 }
 
 .child {
   background-color: blue;
-  height: 100px;
-  width: 700px;
+  height: 150px;
+  width: 1200px;
+  
 }
 
 main {
