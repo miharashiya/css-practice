@@ -3,13 +3,15 @@
 
 .header {
   display: flex;
+  margin-top: 10px;
 }
 
 
 
 .title {
-  margin-right: auto;
   color: blue;
+  font-size: 30px;
+  margin-left: 10px;
 }
 
 .header-right {
@@ -23,6 +25,7 @@
   list-style: none;
   display: flex;
   justify-content: 100px;
+  margin-right: 10px;
 }
 
 nav a{
@@ -48,26 +51,25 @@ main {
 .firstview-title {
   font-size: 50px;
   text-align: left;
-  line-height: ;
   position: absolute;
-  top: 350px;
+  bottom: 10px;
 }
 
 
 
 .parent {
   background-color: blue;
-  height: 250px;
+  height: 200px;
   width: 80%;
   position: absolute;
-  top: 450px;
+  bottom: -200px;
 }
 
 
 img {
   width: 50%;
   position: relative;
-  top: 100px;
+  bottom: -100px;
 }
 
 
