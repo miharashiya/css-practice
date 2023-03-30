@@ -16,9 +16,6 @@
   margin-left: auto;
 }
 
-.nav-list {
-  
-}
 
 .nav-item {
   color: blue;
@@ -43,23 +40,35 @@ li {
   min-width: 100px;
 }
 
+main {
+  text-align: right;
+  position: relative;
+}
 
 .firstview-title {
   font-size: 50px;
   text-align: left;
+  line-height: ;
   position: absolute;
-  line-height: 700px;
+  top: 350px;
 }
+
+
 
 .parent {
   background-color: blue;
   height: 250px;
-  width: 1200px;
-  margin-top: -130px;
+  width: 80%;
+  position: absolute;
+  top: 450px;
+}
+
+
+img {
+  width: 50%;
+  position: relative;
+  top: 100px;
 }
 
 
 
-main {
-  text-align: right;
-}
